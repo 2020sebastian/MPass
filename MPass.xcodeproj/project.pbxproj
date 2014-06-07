@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		728C46E0193F982E005655B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C46DF193F982E005655B8 /* Foundation.framework */; };
+		728C46E2193F982E005655B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C46E1193F982E005655B8 /* CoreGraphics.framework */; };
+		728C46E4193F982E005655B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C46E3193F982E005655B8 /* UIKit.framework */; };
+		728C46EA193F982E005655B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 728C46E8193F982E005655B8 /* InfoPlist.strings */; };
+		728C46EC193F982E005655B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728C46EB193F982E005655B8 /* main.m */; };
+		728C46F0193F982E005655B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 728C46EF193F982E005655B8 /* AppDelegate.m */; };
+		728C46F2193F982E005655B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728C46F1193F982E005655B8 /* Images.xcassets */; };
+		728C46F9193F982F005655B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C46F8193F982F005655B8 /* XCTest.framework */; };
+		728C46FA193F982F005655B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C46DF193F982E005655B8 /* Foundation.framework */; };
+		728C46FB193F982F005655B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C46E3193F982E005655B8 /* UIKit.framework */; };
+		728C4703193F982F005655B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 728C4701193F982F005655B8 /* InfoPlist.strings */; };
+		728C4705193F982F005655B8 /* MPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 728C4704193F982F005655B8 /* MPassTests.m */; };
+		728C4712193F9A6E005655B8 /* PayModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728C4711193F9A6E005655B8 /* PayModeViewController.m */; };
+		728C4718193FA7D1005655B8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728C4717193FA7D1005655B8 /* HomeViewController.m */; };
+		728C471B193FA803005655B8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728C471A193FA803005655B8 /* SettingsViewController.m */; };
+		72D79762193FCFFB00BE088C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D79761193FCFFB00BE088C /* MapKit.framework */; };
+		72D79764193FD01100BE088C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D79763193FD01100BE088C /* CoreLocation.framework */; };
+		72D7976719410E2B00BE088C /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D7976619410E2B00BE088C /* GlobalVariables.m */; };
+		72D7976A19410EB500BE088C /* Registration1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D7976919410EB500BE088C /* Registration1ViewController.m */; };
+		72D7976D19410EC200BE088C /* Registration2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D7976C19410EC200BE088C /* Registration2ViewController.m */; };
+		72D7977019410ED500BE088C /* Settings2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D7976F19410ED500BE088C /* Settings2ViewController.m */; };
+		72DFD24719427EFB0032255B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DFD24919427EFB0032255B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		728C46FC193F982F005655B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728C46D4193F982E005655B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728C46DB193F982E005655B8;
+			remoteInfo = MPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		728C46DC193F982E005655B8 /* MPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728C46DF193F982E005655B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		728C46E1193F982E005655B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		728C46E3193F982E005655B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		728C46E7193F982E005655B8 /* MPass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPass-Info.plist"; sourceTree = "<group>"; };
+		728C46E9193F982E005655B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		728C46EB193F982E005655B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		728C46ED193F982E005655B8 /* MPass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPass-Prefix.pch"; sourceTree = "<group>"; };
+		728C46EE193F982E005655B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		728C46EF193F982E005655B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		728C46F1193F982E005655B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		728C46F7193F982F005655B8 /* MPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		728C46F8193F982F005655B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		728C4700193F982F005655B8 /* MPassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPassTests-Info.plist"; sourceTree = "<group>"; };
+		728C4702193F982F005655B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		728C4704193F982F005655B8 /* MPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPassTests.m; sourceTree = "<group>"; };
+		728C4710193F9A6E005655B8 /* PayModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayModeViewController.h; sourceTree = "<group>"; };
+		728C4711193F9A6E005655B8 /* PayModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayModeViewController.m; sourceTree = "<group>"; };
+		728C4716193FA7D1005655B8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		728C4717193FA7D1005655B8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		728C4719193FA803005655B8 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		728C471A193FA803005655B8 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		72D79761193FCFFB00BE088C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		72D79763193FD01100BE088C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		72D7976519410E2B00BE088C /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		72D7976619410E2B00BE088C /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		72D7976819410EB500BE088C /* Registration1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registration1ViewController.h; sourceTree = "<group>"; };
+		72D7976919410EB500BE088C /* Registration1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registration1ViewController.m; sourceTree = "<group>"; };
+		72D7976B19410EC200BE088C /* Registration2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registration2ViewController.h; sourceTree = "<group>"; };
+		72D7976C19410EC200BE088C /* Registration2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registration2ViewController.m; sourceTree = "<group>"; };
+		72D7976E19410ED500BE088C /* Settings2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings2ViewController.h; sourceTree = "<group>"; };
+		72D7976F19410ED500BE088C /* Settings2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings2ViewController.m; sourceTree = "<group>"; };
+		72DFD24819427EFB0032255B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728C46D9193F982E005655B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D79764193FD01100BE088C /* CoreLocation.framework in Frameworks */,
+				72D79762193FCFFB00BE088C /* MapKit.framework in Frameworks */,
+				728C46E2193F982E005655B8 /* CoreGraphics.framework in Frameworks */,
+				728C46E4193F982E005655B8 /* UIKit.framework in Frameworks */,
+				728C46E0193F982E005655B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728C46F4193F982F005655B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728C46F9193F982F005655B8 /* XCTest.framework in Frameworks */,
+				728C46FB193F982F005655B8 /* UIKit.framework in Frameworks */,
+				728C46FA193F982F005655B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		728C46D3193F982E005655B8 = {
+			isa = PBXGroup;
+			children = (
+				728C46E5193F982E005655B8 /* MPass */,
+				728C46FE193F982F005655B8 /* MPassTests */,
+				728C46DE193F982E005655B8 /* Frameworks */,
+				728C46DD193F982E005655B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		728C46DD193F982E005655B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728C46DC193F982E005655B8 /* MPass.app */,
+				728C46F7193F982F005655B8 /* MPassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728C46DE193F982E005655B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D79763193FD01100BE088C /* CoreLocation.framework */,
+				72D79761193FCFFB00BE088C /* MapKit.framework */,
+				728C46DF193F982E005655B8 /* Foundation.framework */,
+				728C46E1193F982E005655B8 /* CoreGraphics.framework */,
+				728C46E3193F982E005655B8 /* UIKit.framework */,
+				728C46F8193F982F005655B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728C46E5193F982E005655B8 /* MPass */ = {
+			isa = PBXGroup;
+			children = (
+				728C46EE193F982E005655B8 /* AppDelegate.h */,
+				728C46EF193F982E005655B8 /* AppDelegate.m */,
+				72DFD24919427EFB0032255B /* Main.storyboard */,
+				72D7976819410EB500BE088C /* Registration1ViewController.h */,
+				72D7976919410EB500BE088C /* Registration1ViewController.m */,
+				72D7976B19410EC200BE088C /* Registration2ViewController.h */,
+				72D7976C19410EC200BE088C /* Registration2ViewController.m */,
+				72D7976E19410ED500BE088C /* Settings2ViewController.h */,
+				72D7976F19410ED500BE088C /* Settings2ViewController.m */,
+				72D7976519410E2B00BE088C /* GlobalVariables.h */,
+				72D7976619410E2B00BE088C /* GlobalVariables.m */,
+				728C4716193FA7D1005655B8 /* HomeViewController.h */,
+				728C4717193FA7D1005655B8 /* HomeViewController.m */,
+				728C4710193F9A6E005655B8 /* PayModeViewController.h */,
+				728C4711193F9A6E005655B8 /* PayModeViewController.m */,
+				728C4719193FA803005655B8 /* SettingsViewController.h */,
+				728C471A193FA803005655B8 /* SettingsViewController.m */,
+				728C46F1193F982E005655B8 /* Images.xcassets */,
+				728C46E6193F982E005655B8 /* Supporting Files */,
+			);
+			path = MPass;
+			sourceTree = "<group>";
+		};
+		728C46E6193F982E005655B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				728C46E7193F982E005655B8 /* MPass-Info.plist */,
+				728C46E8193F982E005655B8 /* InfoPlist.strings */,
+				728C46EB193F982E005655B8 /* main.m */,
+				728C46ED193F982E005655B8 /* MPass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		728C46FE193F982F005655B8 /* MPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				728C4704193F982F005655B8 /* MPassTests.m */,
+				728C46FF193F982F005655B8 /* Supporting Files */,
+			);
+			path = MPassTests;
+			sourceTree = "<group>";
+		};
+		728C46FF193F982F005655B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				728C4700193F982F005655B8 /* MPassTests-Info.plist */,
+				728C4701193F982F005655B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728C46DB193F982E005655B8 /* MPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728C4708193F982F005655B8 /* Build configuration list for PBXNativeTarget "MPass" */;
+			buildPhases = (
+				728C46D8193F982E005655B8 /* Sources */,
+				728C46D9193F982E005655B8 /* Frameworks */,
+				728C46DA193F982E005655B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPass;
+			productName = MPass;
+			productReference = 728C46DC193F982E005655B8 /* MPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		728C46F6193F982F005655B8 /* MPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728C470B193F982F005655B8 /* Build configuration list for PBXNativeTarget "MPassTests" */;
+			buildPhases = (
+				728C46F3193F982F005655B8 /* Sources */,
+				728C46F4193F982F005655B8 /* Frameworks */,
+				728C46F5193F982F005655B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				728C46FD193F982F005655B8 /* PBXTargetDependency */,
+			);
+			name = MPassTests;
+			productName = MPassTests;
+			productReference = 728C46F7193F982F005655B8 /* MPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728C46D4193F982E005655B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sebastian Demian";
+				TargetAttributes = {
+					728C46F6193F982F005655B8 = {
+						TestTargetID = 728C46DB193F982E005655B8;
+					};
+				};
+			};
+			buildConfigurationList = 728C46D7193F982E005655B8 /* Build configuration list for PBXProject "MPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 728C46D3193F982E005655B8;
+			productRefGroup = 728C46DD193F982E005655B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728C46DB193F982E005655B8 /* MPass */,
+				728C46F6193F982F005655B8 /* MPassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728C46DA193F982E005655B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DFD24719427EFB0032255B /* Main.storyboard in Resources */,
+				728C46EA193F982E005655B8 /* InfoPlist.strings in Resources */,
+				728C46F2193F982E005655B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728C46F5193F982F005655B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728C4703193F982F005655B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728C46D8193F982E005655B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D7976719410E2B00BE088C /* GlobalVariables.m in Sources */,
+				728C46F0193F982E005655B8 /* AppDelegate.m in Sources */,
+				728C46EC193F982E005655B8 /* main.m in Sources */,
+				72D7977019410ED500BE088C /* Settings2ViewController.m in Sources */,
+				728C471B193FA803005655B8 /* SettingsViewController.m in Sources */,
+				72D7976D19410EC200BE088C /* Registration2ViewController.m in Sources */,
+				72D7976A19410EB500BE088C /* Registration1ViewController.m in Sources */,
+				728C4718193FA7D1005655B8 /* HomeViewController.m in Sources */,
+				728C4712193F9A6E005655B8 /* PayModeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728C46F3193F982F005655B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728C4705193F982F005655B8 /* MPassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		728C46FD193F982F005655B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 728C46DB193F982E005655B8 /* MPass */;
+			targetProxy = 728C46FC193F982F005655B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		728C46E8193F982E005655B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728C46E9193F982E005655B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		728C4701193F982F005655B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728C4702193F982F005655B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72DFD24919427EFB0032255B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DFD24819427EFB0032255B /* en */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		728C4706193F982F005655B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		728C4707193F982F005655B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728C4709193F982F005655B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPass/MPass-Prefix.pch";
+				INFOPLIST_FILE = "MPass/MPass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		728C470A193F982F005655B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPass/MPass-Prefix.pch";
+				INFOPLIST_FILE = "MPass/MPass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		728C470C193F982F005655B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPass.app/MPass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPass/MPass-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MPassTests/MPassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		728C470D193F982F005655B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPass.app/MPass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPass/MPass-Prefix.pch";
+				INFOPLIST_FILE = "MPassTests/MPassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728C46D7193F982E005655B8 /* Build configuration list for PBXProject "MPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728C4706193F982F005655B8 /* Debug */,
+				728C4707193F982F005655B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728C4708193F982F005655B8 /* Build configuration list for PBXNativeTarget "MPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728C4709193F982F005655B8 /* Debug */,
+				728C470A193F982F005655B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728C470B193F982F005655B8 /* Build configuration list for PBXNativeTarget "MPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728C470C193F982F005655B8 /* Debug */,
+				728C470D193F982F005655B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728C46D4193F982E005655B8 /* Project object */;
+}
